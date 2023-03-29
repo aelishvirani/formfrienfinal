@@ -1,0 +1,166 @@
+.frameChild {
+position: relative;
+width: 174px;
+height: 23px;
+flex-shrink: 0;
+}
+.dashboard {
+width: 235px;
+}
+.dashboardParent {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.frameParent {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: 59px;
+}
+.sideNav {
+position: absolute;
+top: 0px;
+left: 0px;
+background-color: var(--color-white);
+box-shadow: 4px 4px 4px rgba(18, 18, 18, 0.12);
+height: 768px;
+overflow: hidden;
+display: flex;
+flex-direction: column;
+padding: 40px 0px;
+box-sizing: border-box;
+align-items: flex-start;
+justify-content: flex-start;
+}
+.materialSymbolsaddBoxOutliIcon {
+position: relative;
+width: 24px;
+height: 24px;
+flex-shrink: 0;
+overflow: hidden;
+}
+.newForm {
+position: relative;
+font-weight: 500;
+}
+.materialSymbolsaddBoxOutliParent {
+position: absolute;
+top: 46px;
+left: 31px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-9xs);
+}
+.createFormInner {
+position: relative;
+border-radius: var(--br-5xs);
+border: 2px solid var(--color-cornflowerblue);
+box-sizing: border-box;
+width: 144px;
+height: 144px;
+flex-shrink: 0;
+overflow: hidden;
+}
+.materialSymbolsaddBoxOutliGroup {
+position: absolute;
+top: 46px;
+left: 34px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+gap: var(--gap-9xs);
+}
+.createForm {
+position: absolute;
+top: 48px;
+left: 283px;
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-13xl);
+}
+.recentForms1 {
+position: relative;
+font-weight: 600;
+}
+.previewWrapper {
+position: absolute;
+top: 60px;
+left: 39px;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: flex-start;
+}
+.frameWrapper {
+position: absolute;
+top: -2px;
+left: -2px;
+border-radius: var(--br-5xs);
+border: 2px solid var(--color-cornflowerblue);
+box-sizing: border-box;
+width: 144px;
+height: 144px;
+overflow: hidden;
+}
+.unititled {
+position: absolute;
+top: 152px;
+left: 0px;
+font-weight: 500;
+}
+.frameParent1 {
+position: relative;
+width: 140px;
+height: 172px;
+flex-shrink: 0;
+}
+.previewParent {
+width: 140px;
+position: relative;
+}
+.frameContainer {
+display: flex;
+flex-direction: row;
+align-items: flex-start;
+justify-content: flex-start;
+gap: var(--gap-13xl);
+}
+.frameGroup {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 36px;
+font-size: var(--font-size-base);
+}
+.recentForms {
+position: absolute;
+top: 236px;
+left: 283px;
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+gap: 20px;
+font-size: 18px;
+}
+.sideNavParent {
+position: relative;
+background-color: var(--color-white);
+width: 100%;
+height: 768px;
+overflow: hidden;
+text-align: left;
+font-size: var(--font-size-base);
+color: var(--color-gray);
+font-family: var(--font-plus-jakarta-sans);
+}
+

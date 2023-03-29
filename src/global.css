@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;600&display=swap');
+  body {
+    margin: 0;
+line-height: normal;
+  }
+:root {
+
+/* fonts */
+--font-plus-jakarta-sans: 'Plus Jakarta Sans';
+
+/* font sizes */
+--font-size-base: 16px;
+
+/* Colors */
+--color-white: #fff;
+--color-gray: #121212;
+--color-cornflowerblue: #b2a9fe;
+
+/* Gaps */
+--gap-13xl: 32px;
+--gap-9xs: 4px;
+
+/* border radiuses */
+--br-5xs: 8px;
+
+}
